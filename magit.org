@@ -1,0 +1,31 @@
+* ×´Ì¬²éÑ¯
+
+  M-x magit-satus
+
+  Untracked files //¹¤×÷ÇøÓÐ£¬µ«ÊÇÃ»ÓÐ¼ÓÈëgit¹ÜÀí
+  Unstaged files //git¹ÜÀíµÄ£¬ÔÚ¹¤×÷ÇøÒÑ¾­ÐÞ¸Ä£¬µ«ÊÇÃ»ÓÐÓÃgit add½øÈëStaged×´Ì¬
+
+* Help
+
+  ÔÚ×´Ì¬bufferÖÐ£¬ÓÃC-h m»á´ò¿ª°ïÖúÐÅÏ¢
+
+* Add
+
+  ÔÚbufferÖÐ£¬°´ÏÂs£¬»áÊ¹µÃÎÄ¼þ±äÎªstaged
+
+* Commit
+
+  ÔÚbufferÖÐ£¬°´ÏÂc£¬½øÈëÌá½»½çÃæ£¬°´Cºó»áÌáÊ¾ÊäÈëcomments£¬Ö®ºóC-c C-cÌá½»³É¹¦¡£´ËÊ¹×´Ì¬buffer»á¿´µ½commit id£¬»Ø³µ¿ÉÒÔ¿´µ½ÀïÃæµÄÏêÏ¸ÐÅÏ¢
+
+* Push
+
+  °´P¼ü½øÈëpush½çÃæ£¬ÔÙ°´p»áÖ±½Ópushµ½Ô¶³Ì·ÖÖ§
+
+* Pull
+
+  °´F¼ü½øÈëpull½çÃæ£¬ÔÙ°´p»áÍê³Épull
+
+
+* windowÏÂÅäÖÃgit»·¾³
+
+  https://www.dusaiphoto.com/article/13/
