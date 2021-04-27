@@ -3,3 +3,10 @@
 
 Reference:
 https://www.cnblogs.com/open_source/archive/2011/07/17/2108747.html#sec-4-2
+
+* 编码问题
+
+需要修改显示为乱码的现有文件的编码格式，则可以用下面几个步骤：
++ 用命令 M-x revert-buffer-with-coding-system 来用指定编码重新读入文件，以便正常显示；
++ 用命令 M-x describe-coding-system 查看一下当前的文件格式是否和默认的 UTF-8 一样；
++ 如果不一样，就用命令 C-x <RET> c ( M-x universal-coding-system-argument ) 来设定下一步操作的编码格式，我们设定为 UTF-8，然后再用 C-c C-s 命令保存当前的文件。
