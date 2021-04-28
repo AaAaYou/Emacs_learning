@@ -1,31 +1,32 @@
-* ×´Ì¬²éÑ¯
+#+TITLE:magit
+#+AUTHOR: WayneLee
 
-  M-x magit-satus
+  M-x magit-status: Ctrl-x g
 
-  Untracked files //¹¤×÷ÇøÓÐ£¬µ«ÊÇÃ»ÓÐ¼ÓÈëgit¹ÜÀí
-  Unstaged files //git¹ÜÀíµÄ£¬ÔÚ¹¤×÷ÇøÒÑ¾­ÐÞ¸Ä£¬µ«ÊÇÃ»ÓÐÓÃgit add½øÈëStaged×´Ì¬
+  Untracked files //工作区中有，但没有加入git管理
+  Unstaged files //git管理的，在工作区已经修改的，但是没有用git add进入staged状态
 
 * Help
 
-  ÔÚ×´Ì¬bufferÖÐ£¬ÓÃC-h m»á´ò¿ª°ïÖúÐÅÏ¢
+  在状态buffer中，Ctrl-h m打开帮助信息
 
 * Add
 
-  ÔÚbufferÖÐ£¬°´ÏÂs£¬»áÊ¹µÃÎÄ¼þ±äÎªstaged
+  针对untracked files和unstaged files输入s, 修改文件为staged状态完成add
 
 * Commit
 
-  ÔÚbufferÖÐ£¬°´ÏÂc£¬½øÈëÌá½»½çÃæ£¬°´Cºó»áÌáÊ¾ÊäÈëcomments£¬Ö®ºóC-c C-cÌá½»³É¹¦¡£´ËÊ¹×´Ì¬buffer»á¿´µ½commit id£¬»Ø³µ¿ÉÒÔ¿´µ½ÀïÃæµÄÏêÏ¸ÐÅÏ¢
+  c键 -- c键 输入commit comment and Ctrl+cc提交更改
 
 * Push
 
-  °´P¼ü½øÈëpush½çÃæ£¬ÔÙ°´p»áÖ±½Ópushµ½Ô¶³Ì·ÖÖ§
+  P键，然后p完成
 
 * Pull
 
-  °´F¼ü½øÈëpull½çÃæ£¬ÔÙ°´p»áÍê³Épull
+  F键位，然后p完成
 
 
-* windowÏÂÅäÖÃgit»·¾³
+* window配置magit
 
   https://www.dusaiphoto.com/article/13/
