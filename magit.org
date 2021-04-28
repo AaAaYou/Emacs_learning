@@ -4,6 +4,7 @@
   M-x magit-status: Ctrl-x g
 
   Untracked files //工作区中有，但没有加入git管理
+
   Unstaged files //git管理的，在工作区已经修改的，但是没有用git add进入staged状态
 
 * Help
